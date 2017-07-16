@@ -1,0 +1,3 @@
+install=cpp+$LIB_DIR,CLIUtils+$LIB_DIR/cpp,src/ProgressBar.cpp>$LIB_DIR/cpp/CLIUtils,src/ProgressBar.h>$LIB_DIR/cpp/CLIUtils
+remove=CLIUtils<<$LIB_DIR/cpp
+data=NONE
