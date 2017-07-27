@@ -17,12 +17,12 @@ using namespace dwl;
 
 int main()
 {
-	ProgressBar* pBar = new ProgressBar(200, 80);
+	ProgressBar* pBar = new ProgressBar(20000000, 80);
 
-	for (int i = 0; i < 200; i++)
+	for (int i = 0; i <= 20000000; i++)
 	{
 		pBar->Update(i);
-		std::this_thread::sleep_for(std::chrono::milliseconds(10));
+		//std::this_thread::sleep_for(std::chrono::milliseconds(10));
 	}
 	pBar->Finish();
 	
